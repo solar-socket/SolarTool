@@ -1,4 +1,4 @@
-SolarTool - The easy way to fix SolarTweaks.
+## SolarTool - The easy way to fix SolarTweaks.
 
 Made by Savrien
 
