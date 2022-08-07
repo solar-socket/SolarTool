@@ -72,7 +72,7 @@ cls
 echo.
 echo --DOWNLOADING INSTALLER--
 echo.
-powershell -Command "Invoke-WebRequest "https://cdn.discordapp.com/attachments/981343105448046632/1002045608804229141/Solar_Tweaks_Setup_4.0.3.exe" -OutFile Installer.exe"
+powershell -Command "Invoke-WebRequest "https://cdn.discordapp.com/attachments/970513654866907136/1005978868676579368/Solar_Tweaks_Setup_4.0.4-B.exe" -OutFile Installer.exe"
 echo.
 echo --RUNNING INSTALLER--
 echo.
