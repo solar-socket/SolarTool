@@ -72,7 +72,7 @@ cls
 echo.
 echo --DOWNLOADING INSTALLER--
 echo.
-powershell -Command "Invoke-WebRequest "https://cdn.discordapp.com/attachments/970513654866907136/1005978868676579368/Solar_Tweaks_Setup_4.0.4-B.exe" -OutFile Installer.exe"
+powershell -Command "Invoke-WebRequest "https://github.com/Solar-Tweaks/Solar-Tweaks/releases/download/v4.0.4/Solar-Tweaks-Setup-4.0.4.exe" -OutFile Installer.exe"
 echo.
 echo --RUNNING INSTALLER--
 echo.
@@ -89,7 +89,7 @@ IF EXIST solar-patcher.jar (
 echo.
 echo --DOWNLOADING PATCHER--
 echo.
-powershell -Command "Invoke-WebRequest "https://cdn.discordapp.com/attachments/981343105448046632/1002060638178250832/solar-patcher.jar" -OutFile %userprofile%\.lunarclient\solartweaks\solar-patcher.jar"
+powershell -Command "Invoke-WebRequest "https://github.com/Solar-Tweaks/SolarPatcher/releases/download/v1.7.2/solar-patcher-1.7.2-PR.jar" -OutFile %userprofile%\.lunarclient\solartweaks\solar-patcher.jar"
 cls
 echo.
 echo [42mReplaced Solar Patcher! Make sure you run regular Lunar client to update it before you try Solar![0m
